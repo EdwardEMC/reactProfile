@@ -1,11 +1,10 @@
 import React, { Component } from "react";
+import Title from "../components/Title";
 
 class Hero extends Component {
     render() {
         return (
-            <div> {/*replace with imported JSX*/}
-                {/*button to go to rest of site*/}
-            </div>
+            <Title/>
         )
     }
 }
