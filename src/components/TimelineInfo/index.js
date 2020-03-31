@@ -30,17 +30,17 @@ function TimelineInfo() {
         <div id="information">
           <div className="card" id="timelineCard">
             <div className="card-header" id="feature">
-                {information[0].feature}
+                {information[0][0].feature}
             </div>
             <div className="card-body">
               <h5 className="card-title" id="header">
-                {information[0].header}
+                {information[0][0].header}
               </h5>
               <div className="card-info" id="picDiv">
-                <img src={picPath + information[0].url} alt="timeline" id="pictureURL"/> 
+                <img src={picPath + information[0][0].url} alt="timeline" id="pictureURL"/> 
               </div>
               <p className="card-text" id="text">
-                {information[0].text}
+                {information[0][0].text}
               </p>
             </div>
           </div>

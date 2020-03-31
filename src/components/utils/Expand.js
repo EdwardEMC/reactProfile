@@ -15,10 +15,10 @@ function display(id) {
   const pictureURL = document.getElementById("pictureURL");
   const text = document.getElementById("text");
 
-  feature.innerHTML = information[id].feature;
-  header.innerHTML = information[id].header;
-  pictureURL.src = picPath + information[id].url;
-  text.innerHTML = information[id].text;
+  feature.innerHTML = information[0][id].feature;
+  header.innerHTML = information[0][id].header;
+  pictureURL.src = picPath + information[0][id].url;
+  text.innerHTML = information[0][id].text;
 }
 
 export default Expand;
