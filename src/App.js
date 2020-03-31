@@ -7,6 +7,8 @@ import Portfolio from "./pages/Portfolio";
 import Timeline from "./pages/Timeline";
 import Contact from "./pages/Contact";
 import NoMatch from "./pages/NoMatch";
+import Footer from "./components/Footer";
+import "./index.css";
 
 // Making so the navbar does not appear on the hero page
 const NavRoutes = () => {
@@ -24,13 +26,16 @@ const NavRoutes = () => {
 
 function App() {
   return (
-    <div>
+    <div className="App Site">
+      <div className="Site-content">
       <Router>
         <Switch>
           <Route exact path="/" component={Hero} />
           <Route component={NavRoutes} />
         </Switch>
       </Router>
+      </div>
+      <Footer />
     </div>
   );
 }

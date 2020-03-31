@@ -7,7 +7,7 @@ function Project(props) {
   return (
   <div className={"carousel-item " + props.class}>
     <div id="imageHolder">
-      <img id="portfolioImage" src={imagePath + props.url} alt={props.title}/>
+      <img id="portfolioImage" src={imagePath + props.url} alt={props.title} className="img-fluid"/>
     </div>
     <div className="carousel-caption d-md-block">
       <h5>{props.title}</h5>
