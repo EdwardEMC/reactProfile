@@ -1,0 +1,42 @@
+#footer {
+    background-color: black;
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+}
+
+/* Add back in after assignment submission and re-create rolling page
+#backUp {
+    position: relative;
+    cursor: pointer;
+    bottom: 45px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+    background-color: chocolate;
+    display: inline-block;
+    width: 35px;
+    height: 70px;
+    font-size: xx-large;
+} */
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons {
+    max-height: 40px;
+    max-width: 40px;
+    cursor: pointer;
+}
+
+#copyright {
+    color:maroon;
+}
+
+#copyname {
+    color:white;
+}

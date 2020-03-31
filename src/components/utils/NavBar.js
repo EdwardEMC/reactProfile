@@ -8,7 +8,11 @@ function NavTabs() {
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
-            <a className="navbar-brand" href="/">Edward Coad</a>
+            <Link 
+                to="/" 
+                className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+                <span className="navbar-brand">Edward Coad</span>
+            </Link>
 
             <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -28,7 +32,7 @@ function NavTabs() {
                     </li>
                     <li className="nav-item">
                         <Link 
-                            to="/Timeline" 
+                            to="/timeline" 
                             className={location.pathname === "/timeline" ? "nav-link active" : "nav-link"}>
                             Timeline
                         </Link>
