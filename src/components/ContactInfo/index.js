@@ -4,10 +4,10 @@ import "./style.css";
 function ContactInfo() {
   return (
       <div id="contact">
-        <div class="container contact-area">
-          <div class="row">
-            <div class="col-sm-6 contact-image">
-              <div class="contact-information">
+        <div className="container contact-area">
+          <div className="row">
+            <div className="col-sm-6 contact-image">
+              <div className="contact-information">
                 <h3>Contact Information</h3>
                 <hr></hr>
                 <br></br>
@@ -20,22 +20,22 @@ function ContactInfo() {
                 <p><strong>Resume link: <a href="Edward Coad Resume.pdf" target="_blank">Edward Coad Resume</a></strong></p>
               </div>
             </div>
-            <div class="col-sm-6 contact-container">
-              <form class="contact-form" action="mailto:edwardcoad.ec@gmail.com" method="post" enctype="text/plain">
-                <label for="fname">First Name</label>
+            <div className="col-sm-6 contact-container">
+              <form className="contact-form" action="mailto:edwardcoad.ec@gmail.com" method="post" encType="text/plain">
+                <label htmlFor="fname">First Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="Your name.."/>
                 <br></br>
-                <label for="lname">Last Name</label>
+                <label htmlFor="lname">Last Name</label>
                 <input type="text" id="lname" name="lastname" placeholder="Your last name.."/>
                 <br></br>
-                <label for="country">Type of inquiry</label>
+                <label htmlFor="country">Type of inquiry</label>
                 <select id="country" name="country">
                   <option value="work">Work related</option>
                   <option value="casual">Casual chat</option>
                   <option value="other">Other</option>
                 </select>
                 <br></br>
-                <label for="subject">Subject</label>
+                <label htmlFor="subject">Subject</label>
                 <textarea id="subjectText" name="subject" placeholder="Write something.."></textarea>
                 <br></br>
                 <input type="submit" value="Submit"/>

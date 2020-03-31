@@ -1,0 +1,66 @@
+.line-item {
+  margin: 0 auto;
+  margin-top: 150px;
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: black;
+}
+
+.time-line {
+  justify-content: space-evenly;
+}
+
+.single-item, .single-item-active {
+  width: 6%;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  transition: width .5s;
+  z-index: 1;
+}
+
+.single-item > span, .single-item-active > span {
+  text-align: center;
+  height: 32px;
+  display: block;
+  font-weight: bold;
+  position: absolute;
+  top: 15%;
+  margin-top: -8px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.single-item > span:before {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: white;
+  border: 1px solid black;
+  margin: 0 auto 8px auto;
+  border-radius: 50%;
+}
+
+.activeSpan > span:before {
+  background: black;
+}
+
+#information {
+  display: block;
+  margin-top: 100px;
+}
+
+#picDiv {
+  float: right;
+}
+
+#pictureURL {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+#timelineCard {
+  min-height: 400px;
+}

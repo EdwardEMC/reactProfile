@@ -1,0 +1,32 @@
+[
+  { 
+    "feature": "Schooling",
+    "header": "International Baccalaureate Diploma",
+    "url": "pembrokeLogo.jpg",
+    "text": "Received the International Baccalaureate Diploma from Pembroke School in 2011.<br>Subjects: <br>HL Physics,<br> HL Economics,<br> HL Art,<br> SL English,<br> SL Indonesian,<br> SL Maths."
+  },
+  { 
+    "feature": "Work experience",
+    "header": "Hospitality background",
+    "url": "experience.jpg",
+    "text": "Extensive experience within the hospitality industry leading to a very wide knowledge base focused on customer care and customer relations.<br><br>Years of supervising and managing restuarants and cafes have created a very organised nature which I use to approach all projects I work on."
+  },
+  { 
+    "feature": "Shake Street",
+    "header": "Personal business venture",
+    "url": "shakestreet.jpg",
+    "text": "A project that started when an initial University degree and everyday hospitality jobs just didn't seem to peek any interest, starting completely from scratch as a mobile food truck and ending in a CBD cafe 3 years later.<br><br>All aspects of the business were taken care of personally; including design, council interactions, furniture fabrication, accounting, menu composition, etc. Decided to call it quits after 4 years and the initial goal of owning a cafe was complete, now moving on to establish a career in the IT sector."
+  },
+  { 
+    "feature": "Triology Education",
+    "header": "Web developement course",
+    "url": "webDev.jpg",
+    "text": "The University of Adelaide Coding Boot Camp is a rigorous and fast-paced part-time, 24-week program that gives participants the knowledge and skills to build dynamic end-to-end web applications and become a full-stack web developer in coordination with Trilogy Education Services.<br><br>Skills learnt whilst studying:<br>HTML5, CSS3, JavaScript, jQuery, Bootstrap, Express.js, React.js, Node.js, Database Theory, MongoDB, MySQL, Command Line, Git, and more."
+  },
+  { 
+    "feature": "University of South Australia",
+    "header": "Bachelor of Information Technology",
+    "url": "unisa.jpg",
+    "text": "A stepping stone to further my knowledge of computing, software development and the information services industries.<br><br>The most logical step I could take to secure my career path within the IT industry."
+  }
+]
