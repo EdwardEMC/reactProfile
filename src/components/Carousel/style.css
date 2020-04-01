@@ -4,3 +4,8 @@
   max-height: 640px;
   width: auto;
 }
+
+.indicatorLines {
+    background-color: black;
+    padding: 2px 0 2px 0;
+}
