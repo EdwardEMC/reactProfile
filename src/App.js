@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Header from "./components/Header";
 import NavBar from "./components/utils/NavBar";
 import Hero from "./pages/Hero";
 import About from "./pages/About";
@@ -14,6 +15,7 @@ import "./style.css";
 const NavRoutes = () => {
   return (
     <div className="App Site">
+      <Header />
       <div className="Site-content">
         <NavBar/>
         <Route exact path="/about" component={About} />
