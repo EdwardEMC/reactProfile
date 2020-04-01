@@ -1,0 +1,6 @@
+.carousel-item,
+.carousel-inner,
+.carousel-inner img {
+  max-height: 640px;
+  width: auto;
+}

@@ -10,10 +10,12 @@ function Project(props) {
       <img id="portfolioImage" src={imagePath + props.url} alt={props.title} className="img-fluid"/>
     </div>
     <div className="carousel-caption d-md-block">
-      <h5>{props.title}</h5>
-      {/* <p id="description">{props.text}</p> */}
-      <a href={props.repo}>Repository</a>
-      <a href={props.deployed}>Deployed</a>
+      <h5 id="title">{props.title}</h5>
+      <br></br>
+      <p className="d-none d-md-block" id="description">{props.text}</p>
+      <a className="linked" href={props.repo}>Repository</a>
+      &emsp;
+      <a className="linked" href={props.deployed}>Deployed</a>
     </div>
   </div>
   )

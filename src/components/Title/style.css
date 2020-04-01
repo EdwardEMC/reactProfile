@@ -1,42 +1,50 @@
 #home {
-    background-image:white; /*Change to a background image or animation eventually*/
-    background-size: 100% 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
 #welcome {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    color: white;
-    margin: auto;
-    padding: 0 10px 0 10px;
-    background: rgba(158, 158, 158, 0.6); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  margin: auto;
+  padding: 0 10px 0 10px;
+  /* background: rgba(158, 158, 158, 0.2); perhaps not needed, keep for later consideration */
 }
 
 #welcome_banner {
-    color:darkorange; 
-    text-shadow: 0 0 10px black;
+  color:darkorange; 
+  text-shadow: 0 0 10px black;
 }
 
 #view {
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    outline: 2px solid white;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    color: white;
-    font-size: 30px;
-    width: 150px;
-    transition-duration: 0.4s;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  outline: 2px solid white;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  color: white;
+  font-size: 30px;
+  width: 150px;
+  transition-duration: 0.4s;
 }
 
 #view:hover {
-    background-color: slategray;
-    outline: 2px solid slategray;
+  background-color: slategray;
+  outline: 2px solid slategray;
+}
+
+#welcomeAnimate {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
 }

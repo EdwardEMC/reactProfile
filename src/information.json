@@ -39,47 +39,55 @@
       "url": "donateRight.jpg", 
       "deployed": "https://donateright.herokuapp.com/",
       "repo": "https://github.com/EdwardEMC/donateRight",
-      "text": "Due to the busy lifestyle of people today it is hard for individuals to take out time to contribute to society. Also, charities need the support and contribution from more and more people so that they can reach out to maximum people in need. Mostly the charity based applications existing today request for monetary contributions. But money isn't the only way to give back to society. There are other ways in which each one of us can contribute to society, for example, your old clothes can be donated instead of throwing away, your old books gathering dust can be donated to a reader without means, your skills garnered with years of educational and profesional training can be donated to teach people who can't afford to get the same level of training."     
+      "text": "There are other ways in which each one of us can contribute to society; old clothes can be donated instead of throwing away, old books gathering dust can be donated to a reader without means, skills garnered with years of educational and profesional training can be donated to teach people who can't afford to get the same level of training."     
+    }, 
+    { 
+      "title": "Employee Directory",
+      "id": "2",
+      "url": "employeeDirectory.jpg", 
+      "deployed": "https://assignment19userdirectory.herokuapp.com/",
+      "repo": "https://github.com/EdwardEMC/employeeDirectory",
+      "text": "A directory to keep track of and view non sensitive data about a businesses employees, as a list or as individual cards."     
     }, 
     {
       "title": "Calendar",
-      "id": "2",
+      "id": "3",
       "url": "Calendar.jpg", 
       "deployed": "https://edwardemc.github.io/calendar/",
       "repo": "https://github.com/EdwardEMC/calendar",
-      "text": "A calendar application to schedule events. The entire application is dynamically updated with moment.js so that the days of the month are always in the correct position and the date is correct. Hovering over the days will show the user which day is being focused and clicking on any one of the days will bring up the day planner where information about a certain day/time can be saved. All days in the past and present are displayed as simple input boxes while the current date (red color coded date display) will bring up the advanced day planner (updated hourly to keep track of events). It works by placing text within the coloured boxes and then saving them with the save button provided. It is colour coded to represent the present hour in red, any previous hour slots in grey and any hour slots in the future in green. On load the application checks the local storage for the date and any previously save data. Any days with data saved will be displayed with a light green background color on the main calendar page as to signal to the user there is something within this day. There are two clear buttons one on the main calendar page and one inside every day planner extension, clear simply empties the html elements local to the page while clear all will empty the elements and the local storage for all days."
+      "text": "A calendar application to schedule events. The entire application is dynamically updated with moment.js so that the days of the month are always in the correct position and the date is correct."
     }, 
     {
       "title": "Code Quiz",
-      "id": "3",
+      "id": "4",
       "url": "TriviaGame.jpg", 
       "deployed": "https://edwardemc.github.io/code-Quiz/",
       "repo": "https://github.com/EdwardEMC/code-Quiz",
-      "text": "A series of quizzes to test your knowledge on the various topics. The quiz begins on the title page where you can select one of three topics, javaScript, html or css. Pressing one of these will direct you to the ready screen; it's simply a button to start the quiz and a basic definition of what the topic is below. Each quiz is timed depending on the number of questions, to keep everything uniform each quiz has 6 different questions but more can be added if necessary. To select an answer hover over it with your mouse, it should be highlighted in blue and click it. An alert will let the user know if they have been sucessful or not, if not a certain amount of time will be deducted from their overal time remaining. At the end of the questions, the user will be prompted to input their initials after which their score and initials will be saved to the local storage and displayed on the highscore page in order of score (highest to lowest). If the user wishes to go again or choose a different quiz they just have to click the home link in the navigation bar."
+      "text": "A series of quizzes to test your knowledge on the various topics. A user can select one of three topics, javaScript, html or css."
     }, 
     {
       "title": "Recipe Finder",
-      "id": "4",
+      "id": "5",
       "url": "recipeFinder.jpg", 
       "deployed": "https://edwardemc.github.io/recipeFinder",
       "repo": "https://github.com/EdwardEMC/recipeFinder",
-      "text": "An app to find a set of recipes based off a single ingredient. The search input takes in an ingredient and then displays 10 recipe options and an image relating to the recipe. The 10 options are displayed as buttons, clicking on one will display the recipe name, ingredients and cooking process. That specific recipe will be added as a button below the search area whilst also being saved to the local storage so that it can easily be accessed at a later time. On reload of the page, all past searches will be displayed as buttons below the search area. If a specific recipe is re-searched, an additional button will not be added, only one button with that value will exist. Clicking the clear button will clear all previous search buttons as well as the local storage and refresh the page resulting in a �new� application interface."
+      "text": "An app to find a set of recipes based off a single ingredient, multiple ingredients, a recipe or complete randomness."
     },
     {
       "title": "Team Template Engine",
-      "id": "5",
+      "id": "6",
       "url": "tte.jpg", 
       "deployed": "https://github.com/EdwardEMC/templateEngine",
       "repo": "https://github.com/EdwardEMC/templateEngine",
-      "text": "A node.js application to dynamically create an engineering team based on user inputs. A team would consist of one manager and any number of engineers or interns. Each team member will have thier name, Idenitificaion number and email address recorded along with a unqiue piece of information for each relating role, i.e Team manager - office number, Engineer - github account and Intern - school. The user will be prompted in the order of manager, engineers and then interns. At the end of each engineer or intern input the user will be asked if they want to add another member of that role, selecting no will move to the next role or finish the input depending on where they are at. Each of the inputs are validated upon entry and will not allow incorrect answers, i.e numbers in names, email format etc. If an incorrect answer is given the user is prompted to input a valid one. After the user has enter all the relavent information for each team member the application will produce a html file displaying each team member in thier own personal info card."
+      "text": "A node.js application to dynamically create a HTML document based on user inputs about the team members in a business."
     },
     {
       "title": "Template Generator",
-      "id": "6",
+      "id": "7",
       "url": "templateEngine.jpg", 
       "deployed": "https://github.com/EdwardEMC/templateEngine",
       "repo": "https://github.com/EdwardEMC/templateEngine",
-      "text": "A node.js application to dynamically create an engineering team based on user inputs. A team would consist of one manager and any number of engineers or interns. Each team member will have their name, Idenitificaion number and email address recorded along with a unqiue piece of information for each relating role, i.e Team manager - office number, Engineer - github account and Intern - school."
+      "text": "A node.js application to dynamically create an engineering team based on user inputs. A team would consist of one manager and any number of engineers or interns."
     }
   ]
 ]

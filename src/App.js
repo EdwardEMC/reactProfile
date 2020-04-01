@@ -8,35 +8,33 @@ import Timeline from "./pages/Timeline";
 import Contact from "./pages/Contact";
 import NoMatch from "./pages/NoMatch";
 import Footer from "./components/Footer";
-import "./index.css";
+import "./style.css";
 
 // Making so the navbar does not appear on the hero page
 const NavRoutes = () => {
   return (
-    <div>
-      <NavBar/>
-      <Route exact path="/about" component={About} />
-      <Route exact path="/portfolio" component={Portfolio} />
-      <Route exact path="/timeline" component={Timeline} />
-      <Route exact path="/contact" component={Contact} />
-      <Route path="*" component={NoMatch} />
+    <div className="App Site">
+      <div className="Site-content">
+        <NavBar/>
+        <Route exact path="/about" component={About} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/timeline" component={Timeline} />
+        <Route exact path="/contact" component={Contact} />
+        <Route path="*" component={NoMatch} />
+      </div>
+      <Footer />
     </div>
   )
 }
 
 function App() {
   return (
-    <div className="App Site">
-      <div className="Site-content">
-      <Router>
-        <Switch>
-          <Route exact path="/" component={Hero} />
-          <Route component={NavRoutes} />
-        </Switch>
-      </Router>
-      </div>
-      <Footer />
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Hero} />
+        <Route component={NavRoutes} />
+      </Switch>
+    </Router>
   );
 }
 

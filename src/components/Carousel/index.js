@@ -1,6 +1,7 @@
 import React from "react";
 import Project from "../Project";
 import information from "../../information.json";
+import "./style.css";
 
 function Carousel() {
   return (
@@ -12,8 +13,9 @@ function Carousel() {
           <li data-target="#indicators" data-slide-to="3"></li>
           <li data-target="#indicators" data-slide-to="4"></li>
           <li data-target="#indicators" data-slide-to="5"></li>
+          <li data-target="#indicators" data-slide-to="6"></li>
       </ol>
-      <div className="carousel-inner">
+      <div className="carousel-inner img">
         {information[1].map(element => {
           return <Project {...element} key={element.id}/>
         })}
