@@ -52,7 +52,7 @@
     {
       "title": "Calendar",
       "id": "3",
-      "url": "Calendar.jpg", 
+      "url": "calendar.jpg", 
       "deployed": "https://edwardemc.github.io/calendar/",
       "repo": "https://github.com/EdwardEMC/calendar",
       "text": "A calendar application to schedule events. The entire application is dynamically updated with moment.js so that the days of the month are always in the correct position and the date is correct."
@@ -60,7 +60,7 @@
     {
       "title": "Code Quiz",
       "id": "4",
-      "url": "TriviaGame.jpg", 
+      "url": "triviaGame.jpg", 
       "deployed": "https://edwardemc.github.io/code-Quiz/",
       "repo": "https://github.com/EdwardEMC/code-Quiz",
       "text": "A series of quizzes to test your knowledge on the various topics. A user can select one of three topics, javaScript, html or css."
