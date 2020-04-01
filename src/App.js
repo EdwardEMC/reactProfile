@@ -15,9 +15,10 @@ import "./style.css";
 const NavRoutes = () => {
   return (
     <div className="App Site">
-      <Header />
+      {/* <Header /> */}
       <div className="Site-content">
-        <NavBar/>
+        <NavBar />
+        <Header />
         <Route exact path="/about" component={About} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/timeline" component={Timeline} />

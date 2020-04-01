@@ -1,6 +1,6 @@
 .portfolioSlide {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-evenly;
-    align-self: center;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
 }

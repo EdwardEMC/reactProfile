@@ -1,16 +1,16 @@
 #title {
-    color: black;
-    background-color: white;
-    display: inline-block;
-    padding: 0 10px 0 10px;
+  color: black;
+  background-color: white;
+  display: inline-block;
+  padding: 0 10px 0 10px;
 }
 
 #description {
-    color: black;
-    background-color: white;
+  color: black;
+  background-color: white;
 }
 
 .linked {
-    background-color: white;
-    padding: 0 10px 0 10px;
+  background-color: white;
+  padding: 0 10px 0 10px;
 }

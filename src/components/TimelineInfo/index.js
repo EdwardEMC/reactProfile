@@ -9,6 +9,7 @@ function TimelineInfo() {
   return (
     <div id="timeline">
       <div className="container">
+        <h2 id="heading">Life Experiences</h2>
         <div className="line-item"></div>
         <div className="row time-line">
           <div className="col-sm single-item activeSpan">

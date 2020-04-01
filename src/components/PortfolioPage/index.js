@@ -3,11 +3,11 @@ import Carousel from "../Carousel";
 import "./style.css";
 
 function PortfolioPage() {
-    return (
-        <div className="portfolioSlide">
-            <Carousel/>
-        </div>
-    )
+  return (
+    <div className="portfolioSlide">
+      <Carousel/>
+    </div>
+  )
 }
 
 export default PortfolioPage;
