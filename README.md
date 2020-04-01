@@ -1,68 +1,36 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Portfolio
+A responsive website portfolio using React featuring an about me section, an experience section including a timeline, a portfolio section with interactive topic images/links and a contact section complete with a message form.
 
-## Available Scripts
+# Getting Started
+The index section shows the majority of the information nessecary about the candidate in question. As a responsive layout the text field will decrease in width as the height of the element grows to accomodate the text wrapping around the profile picture. At the predetermined screen size (600px) the padding/margin for the content boxes is removed in order to give mobile users the full use of their screens.
 
-In the project directory, you can run:
+![about.section](/assets/images/aboutmeSS.png?raw=true "about.section") 
 
-### `npm start`
+The portfolio section is a place to showcase the upcoming apps to be built. The images are responsive to hover and the links are currently not connected but ready to be. As the window is minimised the photos decrease in size to the point (576px) of stacking one ontop of another.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Portfolio.section](/assets/images/portfolioSS.png?raw=true "portfolio.section") 
+ 
+The experience section is basically a detailed breakdown of a resume, showing past experiences with schooling, work, further education and life events.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![experience.section](/assets/images/experienceSS.png?raw=true "experience.section") 
 
-### `npm test`
+The contact section is built to allow a message form submission to the author or another entity. As the screen size decreasing so to does the area in which inputs are allowed.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![contact.section](/assets/images/contactSS.png?raw=true "contact.section") 
+ 
 
-### `npm run build`
+# Built With
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Bootstrap
+JQuery
+React
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+# Authors
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Edward Michael Coad
 
-### `npm run eject`
+# Acknowledgments
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+bootstrap.com
+w3schools.com
+jquery.com
