@@ -18,6 +18,8 @@ The contact section is built to allow a message form submission to the author or
 
 ![contact.section](/assets/images/contactSS.png?raw=true "contact.section") 
  
+# Deployed
+https://edwardcoad-profile.herokuapp.com/
 
 # Built With
 
