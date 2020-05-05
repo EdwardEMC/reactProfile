@@ -19,7 +19,7 @@ function ContactInfo() {
                 <p><strong>Phone:</strong> 0402099281</p>
                 <br></br>
                 <br></br>
-                <p><strong>Resume link: <a href={pdfPath + "Edward Coad Resume.pdf"} target="_blank">Edward Coad Resume</a></strong></p>
+                <p><strong>Resume link: <a href={pdfPath + "Edward_Coad_Resume.pdf"} target="_blank">Edward Coad Resume</a></strong></p>
               </div>
             </div>
             <div className="col-sm-6 contact-container">
